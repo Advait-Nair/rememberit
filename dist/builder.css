@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter';
+  background: #fff;
+  color: #000;
+}
+
+h1 {
+    padding: 2rem;
+}
+
+.container {
+    padding: 0 2rem;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.card {
+    background: #f9f9f9;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 1rem;
+    border: solid 1px #ddd;
+}
+
+button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+input, textarea {
+    min-width: 5rem;
+    max-width: 80%;
+    outline: none;
+    font-size: 1rem;
+    font-family: 'Inter';
+    text-align: center;
+    background: #e9e9e9;
+    border: solid 1px #c7c7c7;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+textarea {
+    height: 10rem;
+    width: 80%;
+}
+input[type="color"] {
+    width: 1rem;
+    height: 2.8rem;
+    padding: 0;
+    border: none;
+}
+
+label {
+    color: #999;
+    font-size: .8rem;
+    margin-top: 9px;
+}
+
+.vflex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.entry_flex {
+    background: #ededed;
+    border: solid #eee 1px;
+    border-radius: .5rem;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.output {
+    font-family: monospace;
+    font-size: 1rem;
+    padding: 1rem;
+    color: #444;
+}
