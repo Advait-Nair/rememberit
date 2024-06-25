@@ -45,6 +45,61 @@ author:: Advait Nair
             <input spellcheck="false"class="datapack-select"type="text"placeholder="JSON DataPack File">
         </form>
     </div>
+    <div class="menu-toggle">
+        <span class="material-symbols-outlined info menu-item">
+            info
+        </span>
+        <span class="material-symbols-outlined leaderboard menu-item">
+            leaderboard
+        </span>
+        <span class="material-symbols-outlined restart menu-item">
+            cached
+        </span>
+    </div>
+    
+    <!-- APP FLOATING MENUS -->
+    <div class="info-fmenu fmenu">
+        <div class="fmenu-btn action-card close-info">
+            <span class="material-symbols-outlined">
+                close
+            </span> Close
+        </div>
+        <div class="container">
+            <div class="top">
+                <h1>Remember It?</h1>
+                <div class="divider"></div>
+                <h4>Remember It? is a simple memory game where you have to remember various keywords of a topic and recall them in any order. The game is designed to test your memory and improve it over time.</h4>
+                <br><br>
+                <h4>
+                    <a href="https://github.com/advait-nair/rememberit">View this project's source code</a>
+                </h4>
+            </div>
+
+            <span class="copyright bottom">
+                Copyright © 2024 <a href="https://advaitnair.netlify.app">Advait Nair</a>. All Rights Reserved. Built with <a href="https://github.com/advait-nair/apm">APM</a> and <a href="./lithiumjs.js">LithiumJS</a>.
+            </span>
+        </div>
+     </div>
+    <div class="leaderboard-fmenu fmenu">
+        <div class="fmenu-btn action-card close-leaderboard">
+            <span class="material-symbols-outlined">
+                close
+            </span> Close
+        </div>
+        <div class="container top-flex">
+            <div class="leaderboard-wrapper">
+                <h1>Leaderboard</h1>
+                <div class="leaderboard-list">
+                    <div class="entry-lb">
+                        <div class="place">1</div>
+                        <div class="score">3550</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
     <div class="container main-app">
         <div class="tooltip-justify">
             <div class="tooltip"><code>⇧ Shift</code> + Scroll</div>
@@ -52,7 +107,7 @@ author:: Advait Nair
         <div class="flex-row datapack-choice">
 
         </div>
-        <input id="main"type="text"disabled>
+        <input spellcheck="false" autocapitalize="false" id="main"type="text"disabled>
         <p></p>
     </div>
 </body>
